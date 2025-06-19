@@ -38,4 +38,16 @@
 .navbar a:hover
 {
     color: var(--hover1-color);
+    transition: color 0.3s ease;
+}
+.logo a:hover
+{
+     color: var(--hover1-color);
+    transition: color 0.3s ease;
+}
+@media(max-width: 768px)
+{
+    .header{
+        padding: 15px 15px;
+    }
 }
