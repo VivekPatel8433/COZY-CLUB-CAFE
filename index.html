@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header"></header>
+    <header class="header">
     <h1 class="logo">Cozy Club Cafe<h1>
 
     <nav class="navbar">
@@ -17,8 +17,14 @@
         <a href="#">CAREERS</a>
         <a href="#">PRIVATE DINING</a>     
     </nav>
+    </header>
 
-    <video src="VIDEO.mp4" class="Video"></video>
+    <div class="video-container">
+        <video autoplay muted loop playsinline>
+                <source src="VIDEO.mp4" type="video/mp4">
+        </video>
+    </div>
+    
 </body>
 <script src="script.js"></script>
 </html>
