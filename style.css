@@ -45,6 +45,30 @@
      color: var(--hover1-color);
     transition: color 0.3s ease;
 }
+video {
+    border: 2px solid #333; /* Add a border */
+    border-radius: 8px; /* Round the corners */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    margin: .8rem auto; /* Center the video and add space */
+    display: block; /* Ensure margin: auto works */
+    max-width: 100%; /* Make it responsive */
+    height: auto;
+}
+button#playPauseButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button#playPauseButton:hover {
+    background-color: #0056b3;
+}
+
 @media(max-width: 768px)
 {
     .header{
