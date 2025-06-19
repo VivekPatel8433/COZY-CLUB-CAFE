@@ -16,7 +16,7 @@
     width: 100%;
     padding: 3rem 9%;
     background-color: var(--background-color);
-    z-index: -1;
+    z-index: 100;
     display: flex;
     align-items: center;
 }
@@ -61,6 +61,51 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.info-section
+{
+    display: flex; /* Makes the children (.info-left, .info-right) flex items */
+    justify-content: center; /* Centers the flex items horizontally */
+    align-items: flex-start; /* Aligns items to the start of the cross-axis (top) */
+    padding: 70px 50px; /* Add padding around the entire section */
+    max-width: 1200px; /* Limit the maximum width of the content area */
+    margin: 0 auto; /* Center the section on larger screens */
+    gap: 100px; /* Space between the two columns */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+.info-left
+{
+    flex: 1;
+    max-width: 1000px;
+    font-family: Arial, sans-serif; /* Example font */
+    font-size: 2em; /* Adjust font size */
+    line-height: 1;
+    color: var(--hover1-color);
+}
+.info-left h2 {
+    margin: 0; /* Remove default h2 margins */
+    font-weight: lighter; /* Make it lighter as in the screenshot */
+}
+.info-right
+{
+     flex: 1;
+    max-width: 600px;
+    font-family: Arial, sans-serif; /* Example font */
+    font-size: 1.1em; /* Adjust font size */
+    line-height: 1;
+    color:  var(--background-color);
+}
+.info-right h2
+{
+    margin: 0;
+    font-weight: lighter;
+}
+.background-image{
+    background-image: url('portrait-beautiful-young-woman-holding-white-ceramic-cup_23-2147975423.avif'); /* REPLACE with the actual path to your image */
+    background-size: cover; /* Ensures the image covers the entire section, cropping if necessary */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 500px; /* Set a height for this section so the image is visible */
 }
 
    
