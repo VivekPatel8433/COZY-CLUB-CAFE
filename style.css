@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+:root
+{
+    --text-color: #ffffff;
+    --background-color: #262626;
+    --hover1-color:rgb(232, 157, 19);
+}
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 4rem 9%;
+    background-color: var(--background-color);
+    z-index: -1;
+}
+.logo
+{
+    font-size: 3rem;
+    color: var(--text-color);
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+    font-weight: 10;
+}
+.navbar a
+{
+    font-size: 1rem;
+    color: var(--text-color);
+    font-weight: 10;
+    margin-left: 6rem;
+    text-decoration: none;
+}
+
+.navbar a:hover
+{
+    color: var(--hover1-color);
+}
