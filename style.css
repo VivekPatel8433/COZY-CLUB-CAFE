@@ -101,11 +101,29 @@
     font-weight: lighter;
 }
 .background-image{
-    background-image: url('portrait-beautiful-young-woman-holding-white-ceramic-cup_23-2147975423.avif'); /* REPLACE with the actual path to your image */
-    background-size: cover; /* Ensures the image covers the entire section, cropping if necessary */
-    background-position: center; /* Centers the image */
+    background-image: url(PIC.avif);
     background-repeat: no-repeat; /* Prevents the image from repeating */
-    height: 500px; /* Set a height for this section so the image is visible */
-}
+    background-size: cover;
+    width: 100vw;
+    height: 100vh; /* Set a height for this section so the image is visible */
+    position: relative; 
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-   
+    
+}
+.Textonimage{
+    background-color: rgb(199, 193, 181);
+    z-index: 1; /* Ensures text is above background */
+    margin-right: 52rem;
+    margin-bottom: 18rem;
+    font-size: 3em; /* Adjust font size */
+    max-width: 600px;
+    font-weight: lighter;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+}
