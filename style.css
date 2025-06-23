@@ -131,22 +131,18 @@
     font-weight: lighter;
     z-index: 1;
 }
-@media (max-width: 1024px) {
-    .your-header-class {
-        padding: 2.5rem 5%; /* Slightly less vertical padding, more horizontal */
-        /* You might also consider adjusting font-sizes of elements inside here */
-        /* For example, if you have a .logo or .nav-link */
-        /* font-size: 1.8rem; */
+@media (max-width: 991px) {
+    .header{
+        padding: 2rem 3%;
     }
-}
-@media (max-width: 768px) {
-    .your-header-class {
-        padding: 2rem 4%; /* Further reduced padding */
-        height: 70px; /* Slightly shorter header */
-        /* If you have navigation items directly in the header, you might hide them here */
-        /* .your-nav-menu { display: none; } */
-        /* And show a hamburger icon */
-        /* .hamburger-icon { display: block; } */
+     .video-container{
+        padding: 1rem 3%;
+    }
+     .info-section{
+        padding: 5rem 25%;
+    }
+    .background-image-container{
+        padding: 1rem 3%;
     }
 }
 
